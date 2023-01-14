@@ -1,11 +1,14 @@
 import { View, Text } from 'react-native'
 import { ScrollView } from 'react-native-gesture-handler';
+
 import { useNavigation, useRoute } from '@react-navigation/native';
 import { useEffect } from 'react';
 
 import ListHome from '../containers/session/Home/listHome';
 import { Vista } from "../components/components";
 import { Peliculas } from '../utils/databases/peliculas';
+import SearchBars from '../components/srcHome/searchBar';
+
 
 export default function Homes() {
 
@@ -17,6 +20,7 @@ export default function Homes() {
     return (
         <Vista>
             <ScrollView>
+                <SearchBars/>
                 <ListHome etiquiteta={'Peliculas'} lista={Peliculas} />
                 <ListHome etiquiteta={'Proximas peliculas'} lista={Peliculas} />
                 <ListHome etiquiteta={'Top peliculas'} lista={Peliculas} />

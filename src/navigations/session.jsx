@@ -4,11 +4,12 @@ import { useFonts } from 'expo-font';
 import InforPelis from "../screens/infoPelis";
 import Puestos from '../screens/puestos';
 import Tickets from '../screens/tickets';
+import Homes from '../screens/home';
+import Franquicias from '../screens/franquicias';
 /**Componentes */
 import { GoBack, Shopping } from '../components/headers';
 /** */
 import { jsonFonts } from '../hooks/fonts';
-import Homes from '../screens/home';
 
 
 
@@ -25,11 +26,11 @@ export default function Session() {
 
 
     return (
-        <Stack.Navigator initialRouteName='Homes'>
-            <Stack.Screen name='infoPeli' component={InforPelis} options={({route})=>({
-                headerTitle:'',
-                headerTransparent:true,
-                headerLeft:()=>(<GoBack/>),
+        <Stack.Navigator initialRouteName='franquicia'>
+            <Stack.Screen name='infoPeli' component={InforPelis} options={({ route }) => ({
+                headerTitle: '',
+                headerTransparent: true,
+                headerLeft: () => (<GoBack />),
                 headerShadowVisible: false,
 
             })} />
@@ -55,6 +56,15 @@ export default function Session() {
             }} />
             <Stack.Screen name='Homes' component={Homes} options={{
                 headerTitle: 'Peliculas',
+                headerTintColor: 'white',
+                headerTitleAlign: 'center',
+                headerStyle: { backgroundColor: 'rgba(46, 19, 113,1)' },
+                headerTitleStyle: { fontFamily: 'PlayfairDisplay-Bold', fontSize: 12 },
+                headerShadowVisible: false,
+
+            }} />
+            <Stack.Screen name='franquicia' component={Franquicias} options={{
+                headerTitle: 'Franquicias',
                 headerTintColor: 'white',
                 headerTitleAlign: 'center',
                 headerStyle: { backgroundColor: 'rgba(46, 19, 113,1)' },

@@ -4,10 +4,6 @@ export const sillas = [
         estado:1,
     },
     {
-        numero:1,
-        estado:2,
-    },
-    {
         numero:2,
         estado:2,
     },
@@ -43,10 +39,6 @@ export const sillas = [
     {
         numero:11,
         estado:1,
-    },
-    {
-        numero:11,
-        estado:2,
     },
     {
         numero:12,
@@ -123,7 +115,7 @@ export const sillas = [
     },
 
     {
-        numero:31,
+        numero:30,
         estado:1,
     },
     {

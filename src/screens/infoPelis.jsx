@@ -165,6 +165,6 @@ const styles = StyleSheet.create({
         borderColor: 'white',
         alignItems: 'center',
         height: height * 0.2,
-        top:height*0.5,
+        top:height*0.7,
     }
 })

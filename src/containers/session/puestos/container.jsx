@@ -29,7 +29,7 @@ export default function Container({ arrray }) {
                         <Entypo name="ticket" color="white" size={20} />
                         <Text style={[styleSheet.Texts, styles.text, { marginLeft: 5 }]}>Tiquetes</Text>
                     </View>
-                    <View style={styles.caja}>
+                    <View style={[styles.caja,{maxWidth:120}]}>
                         <FontAwesome name="circle" color="white" size={10} style={{ top: 2, marginRight: '6%' }} />
                         <Text style={[styleSheet.Texts, styles.text]}>{arrray.join(', ')}</Text>
 
