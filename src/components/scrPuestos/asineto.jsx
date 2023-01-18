@@ -13,6 +13,8 @@ const Elemento =  memo(({ estado, numero ,onSelect,onRemove}) => {
                if (status === 1) onSelect(numero, status)
                else if (status == 3)  onRemove(numero, status)
             }}
+            
+            
         >
             {
                 /**Vacio */

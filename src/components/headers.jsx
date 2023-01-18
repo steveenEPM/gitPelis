@@ -1,6 +1,6 @@
 import { Pressable, Text, StyleSheet } from "react-native";
 import { useNavigation } from "@react-navigation/native";
-import { FontAwesome5, Entypo } from 'react-native-vector-icons'
+import { FontAwesome5, Entypo ,Ionicons} from 'react-native-vector-icons'
 
 export const GoBack = () => {
 
@@ -22,6 +22,14 @@ export const Shopping = () => {
         </Pressable>
     )
 
+}
+
+export const Setting = ()=>{
+    return(
+        <Pressable style={({pressed})=>[{padding:9},pressed && {backgroundColor:'rgba(255,255,255,0.3)',borderRadius:70}]}>
+            <Ionicons name="settings-sharp" color="white" size={30}/>
+        </Pressable>
+    )
 }
 
 const styles = StyleSheet.create({

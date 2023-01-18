@@ -10,7 +10,13 @@ export const jsonFonts = {
     'PlayfairDisplay-MediumItalic':require('../../assets/fonts/Playfair_Display/static/PlayfairDisplay-MediumItalic.ttf'),
     'PlayfairDisplay-Regular':require('../../assets/fonts/Playfair_Display/static/PlayfairDisplay-Regular.ttf'),
     'PlayfairDisplay-VariableFont_wght':require('../../assets/fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf'),
-
-
+ 
+    'Gelasio-Bold':require('../../assets/fonts/Gelasio/Gelasio-Bold.ttf'),
+    'Gelasio-BoldItalic':require('../../assets/fonts/Gelasio/Gelasio-BoldItalic.ttf'),
+    'Gelasio-Italic':require('../../assets/fonts/Gelasio/Gelasio-Italic.ttf'),
+    'Gelasio-Medium':require('../../assets/fonts/Gelasio/Gelasio-Medium.ttf'),
+    'Gelasio-MediumItalic':require('../../assets/fonts/Gelasio/Gelasio-MediumItalic.ttf'),
+    'Gelasio-SemiBold':require('../../assets/fonts/Gelasio/Gelasio-SemiBold.ttf'),
+    'Gelasio-SemiBoldItalic':require('../../assets/fonts/Gelasio/Gelasio-SemiBoldItalic.ttf'),
 }
 

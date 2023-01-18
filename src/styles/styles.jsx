@@ -4,7 +4,7 @@ export const styleSheet = StyleSheet.create({
    
     Texts:{
         fontSize:11,
-        fontFamily:'PlayfairDisplay-Regular'
+        fontFamily:'Gelasio-Medium'
     },
     Pressables:{
         backgroundColor:'rgb(182, 17, 107)',
